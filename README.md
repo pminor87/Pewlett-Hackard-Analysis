@@ -17,7 +17,7 @@
 ## Results:
 ### 1. Retirement_titles table
 
-- This table pulled the basic informamtion for each employee born between 1952 and 1955.
+- This query pulled the basic informamtion for each employee born between 1952 and 1955.
 - This is a good start but unfortunately anyone who has ever changed titles while with the company will show as duplicate data.
 
 <br>

@@ -1,6 +1,7 @@
 -- Deliverable 1
 
--- Create retirement_titles table for employees born between January 1, 1952 and December 31, 1955. 
+-- Create retirement_titles table for employees born between
+--   January 1, 1952 and December 31, 1955. 
 SELECT
 	e.emp_no,
 	e.first_name,
@@ -21,7 +22,8 @@ WHERE
 ORDER BY
     emp_no ASC;
 
--- Create unique_titles table that contains employee number, first and last name, and most recent title.
+-- Create unique_titles table that contains employee number,
+--   first and last name, and most recent title.
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (rt.emp_no)
 	rt.emp_no,
